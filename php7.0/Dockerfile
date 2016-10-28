@@ -11,7 +11,6 @@ RUN apt-get update \
   && apt-key add dotdeb.gpg \
   && apt-get update \
   
-  && docker-php-ext-install fpm \
   && docker-php-ext-install pdo \
   && docker-php-ext-install pdo_mysql \
   && docker-php-ext-install mysqlnd \
