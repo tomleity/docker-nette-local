@@ -10,7 +10,7 @@ RUN apt-get update \
   && wget https://www.dotdeb.org/dotdeb.gpg \
   && apt-key add dotdeb.gpg \
   && apt-get update \
-RUN && docker-php-ext-install \
+  && docker-php-ext-install \
       php7.0-mysql \
       php7.0-fpm \
       php7.0-pdo \
