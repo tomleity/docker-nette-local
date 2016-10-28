@@ -11,7 +11,6 @@ RUN apt-get update \
   && apt-key add dotdeb.gpg \
   && apt-get update \
   && apt-get install -y 
-      php7.0-mysql \
       php7-fpm \
       php7-pdo \
       php7-pdo_mysql \
