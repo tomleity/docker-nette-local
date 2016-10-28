@@ -10,19 +10,35 @@ RUN apt-get update \
   && wget https://www.dotdeb.org/dotdeb.gpg \
   && apt-key add dotdeb.gpg \
   && apt-get update \
-  && apt-get install -y php7.0-mysql \
-  
-  && docker-php-ext-install soap \
-  && docker-php-ext-install zip \
-  && docker-php-ext-install xsl \
-  && docker-php-ext-install mcrypt \
-  && docker-php-ext-install mbstring \
-  && docker-php-ext-install gettext \
-  && docker-php-ext-install curl \
-  && docker-php-ext-install pdo_mysql \
-  && docker-php-ext-install mysqli \
-  && docker-php-ext-install json \
-  && docker-php-ext-install intl \
-  && docker-php-ext-install opcache
+  && apt-get install -y 
+      php7.0-mysql \
+      php7-fpm \
+      php7-pdo \
+      php7-pdo_mysql \
+      php7-mysqlnd \
+      php7-mysqli \
+      php7-mcrypt \
+      php7-mbstring \
+      php7-ctype \
+      php7-zlib \
+      php7-gd \
+      php7-exif \
+      php7-intl \
+      php7-sqlite3 \
+      php7-pdo_pgsql \
+      php7-pgsql \
+      php7-xml \
+      php7-xsl \
+      php7-curl \
+      php7-openssl \
+      php7-iconv \
+      php7-json \
+      php7-phar \
+      php7-soap \
+      php7-dom \
+      php7-zip \
+      php7-session \
+      php7-gettext \
+      php7-opcache
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
