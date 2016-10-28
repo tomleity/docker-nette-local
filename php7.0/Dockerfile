@@ -16,7 +16,6 @@ RUN apt-get update \
   && docker-php-ext-install mysqli \
   && docker-php-ext-install mcrypt \
   && docker-php-ext-install mbstring \
-  && docker-php-ext-install ctype \
   && docker-php-ext-install gd \
   && docker-php-ext-install exif \
   && docker-php-ext-install intl \
