@@ -1,0 +1,32 @@
+2016/11/02 16:01:50 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100"
+2016/11/02 16:01:50 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/11/02 16:02:08 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100"
+2016/11/02 16:02:08 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/11/02 16:02:28 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100"
+2016/11/02 16:02:28 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/11/02 16:02:29 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100"
+2016/11/02 16:02:29 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /code/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /code/index.php on line 9" while reading response header from upstream, client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
